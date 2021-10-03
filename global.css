@@ -1,0 +1,12 @@
+.overflow {
+    height: 40%;
+    overflow: hidden;
+}
+
+.overflow .card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+.overflow .card-img-top:hover {
+    transform: scale(1.8);
+}
